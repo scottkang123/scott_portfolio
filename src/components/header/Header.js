@@ -11,7 +11,8 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  moreAboutMe
 } from "../../portfolio";
 
 function Header() {
@@ -79,6 +80,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
+          {moreAboutMe.display && (
+            <li>
+              <a href="#moreaboutme">More About Me</a>
+            </li>
+          )}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>

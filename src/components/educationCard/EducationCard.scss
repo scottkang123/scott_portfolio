@@ -78,6 +78,38 @@
   margin-top: 0.5rem;
 }
 
+.education-text-transcript {
+  margin-top: 1rem;
+  
+  a {
+    display: inline-block;
+    background-color: white;
+    color: #e9b616; /* Dark yellow */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700; /* Bold text */
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+    
+    &:hover {
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      border-color: #e9b616;
+    }
+    
+    &.dark-mode {
+      background-color: #2d333b;
+      color: #e9b616;
+      border: 1px solid #444;
+      
+      &:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+        border-color: #e9b616;
+      }
+    }
+  }
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {
@@ -130,5 +162,13 @@
   .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
+  }
+  .education-text-transcript {
+    text-align: center;
+    margin-top: 1.5rem;
+    
+    a {
+      padding: 0.5rem 1.5rem;
+    }
   }
 }

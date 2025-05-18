@@ -15,6 +15,17 @@ export default function EducationCard({school}) {
         ))
       : null;
   };
+
+  const GetDescArray = ({descArray}) => {
+    return descArray
+      ? descArray.map((item, i) => (
+          <p key={i} className="education-text-desc">
+            {item}
+          </p>
+        ))
+      : null;
+  };
+
   const {isDark} = useContext(StyleContext);
 
   if (!school.logo)
@@ -54,12 +65,31 @@ export default function EducationCard({school}) {
               >
                 {school.duration}
               </p>
-              <p className="education-text-desc">{school.desc}</p>
+              
+              {/* Support for legacy desc field */}
+              {school.desc && <p className="education-text-desc">{school.desc}</p>}
+              
+              {/* Support for new descArray field */}
+              <GetDescArray descArray={school.descArray} />
+              
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
                 </ul>
               </div>
+              
+              {/* Transcript PDF download link */}
+              {school.transcriptPdf && (
+                <div className="education-text-transcript">
+                  <a
+                    href={school.transcriptPdf}
+                    download
+                    className={isDark ? "dark-mode" : ""}
+                  >
+                    View Transcript
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>

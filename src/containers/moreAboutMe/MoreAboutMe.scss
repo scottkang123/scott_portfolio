@@ -1,0 +1,264 @@
+@import "../../_globalColor";
+
+.more-about-me-div {
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.more-about-me-header {
+  text-align: center;
+  width: 100%;
+}
+
+.more-about-me-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.back-to-home {
+  margin: 20px 0;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $buttonColor;
+  color: $textColorDark;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .back-button {
+  background-color: $buttonColor;
+  color: $textColorDark;
+}
+
+.more-about-me-subtitle {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 40px 0 20px 0;
+  color: $subTitle;
+}
+
+.dark-mode .more-about-me-subtitle {
+  color: $textColorDark;
+}
+
+/* Work Experience Section */
+.more-about-me-work-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.more-about-me-work-item {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+  background-color: $lightBackground2;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .more-about-me-work-item {
+  background-color: $darkBackground;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.7);
+}
+
+.more-about-me-work-item:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.dark-mode .more-about-me-work-item:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.more-about-me-work-role {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  color: $titleColor;
+}
+
+.dark-mode .more-about-me-work-role {
+  color: $textColorDark;
+}
+
+.more-about-me-work-company {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+  color: $textColor;
+}
+
+.dark-mode .more-about-me-work-company {
+  color: $textColorDark;
+}
+
+.more-about-me-work-date {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  color: $textColor;
+}
+
+.dark-mode .more-about-me-work-date {
+  color: $textColorDark;
+}
+
+.more-about-me-work-desc {
+  font-size: 16px;
+  margin: 0 0 15px 0;
+  color: $textColor;
+}
+
+.dark-mode .more-about-me-work-desc {
+  color: $textColorDark;
+}
+
+.more-about-me-work-image-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.more-about-me-work-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+}
+
+/* Countries Section */
+.more-about-me-countries-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.more-about-me-country-item {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+  background-color: $lightBackground2;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .more-about-me-country-item {
+  background-color: $darkBackground;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.7);
+}
+
+.more-about-me-country-item:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.dark-mode .more-about-me-country-item:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.more-about-me-country-name {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  color: $titleColor;
+}
+
+.dark-mode .more-about-me-country-name {
+  color: $textColorDark;
+}
+
+.more-about-me-country-duration {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  color: $textColor;
+}
+
+.dark-mode .more-about-me-country-duration {
+  color: $textColorDark;
+}
+
+.more-about-me-country-image-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.more-about-me-country-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+}
+
+/* Hobbies Section */
+.more-about-me-hobbies-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.more-about-me-hobbies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+}
+
+.more-about-me-hobby-item {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: $buttonColor;
+  color: $textColorDark;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .more-about-me-hobby-item {
+  background-color: $buttonColor;
+}
+
+.more-about-me-hobby-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .more-about-me-title {
+    font-size: 40px;
+  }
+
+  .more-about-me-subtitle {
+    font-size: 24px;
+  }
+
+  .more-about-me-work-item,
+  .more-about-me-country-item {
+    width: 100%;
+    max-width: 350px;
+  }
+}
