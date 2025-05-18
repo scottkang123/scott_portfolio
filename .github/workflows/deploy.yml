@@ -24,10 +24,10 @@ jobs:
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v3.8.1
         with:
-          node-version: 18.x
+          node-version: 16
 
-      - name: Set OpenSSL legacy provider env var
-        run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
+      # - name: Set OpenSSL legacy provider env var
+      #   run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
       # - name: Update npm 🚀
       #   run: npm install -g npm@latest
 
