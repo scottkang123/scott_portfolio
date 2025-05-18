@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an experience of building a backend service, Web application, automation framework and many more cool projects!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "/Scott_Resume_05_17_25.pdf", // Set to empty to hide the button, //It is actually in the Greeting.js
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
