@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99cf05d32b501aca89d7446a56ac328e",
+    "revision": "2c723c1e11d4bbd8252111c3777fcd61",
     "url": "/scott_portfolio/index.html"
   },
   {
-    "revision": "ba203be214e91824898b",
+    "revision": "dfab139b1aee4bd0a6e1",
     "url": "/scott_portfolio/static/css/3.df879eac.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "0b3fc2a6f8cb3d79c1d9",
-    "url": "/scott_portfolio/static/css/main.2a90d718.chunk.css"
+    "revision": "254aec78d824c89dd354",
+    "url": "/scott_portfolio/static/css/main.26e59c9d.chunk.css"
   },
   {
     "revision": "b418c9ca5961cbd0a7f7",
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/js/2.07f68987.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba203be214e91824898b",
-    "url": "/scott_portfolio/static/js/3.d408f7ea.chunk.js"
+    "revision": "dfab139b1aee4bd0a6e1",
+    "url": "/scott_portfolio/static/js/3.33bc8abb.chunk.js"
   },
   {
     "revision": "cdb850750231ef04072d",
     "url": "/scott_portfolio/static/js/4.fbc0b9de.chunk.js"
   },
   {
-    "revision": "0b3fc2a6f8cb3d79c1d9",
-    "url": "/scott_portfolio/static/js/main.642f1107.chunk.js"
+    "revision": "254aec78d824c89dd354",
+    "url": "/scott_portfolio/static/js/main.d63cc413.chunk.js"
   },
   {
-    "revision": "5a962dfe39168ce5b51f",
-    "url": "/scott_portfolio/static/js/runtime-main.daf90064.js"
+    "revision": "5adaa275b174a102c5d9",
+    "url": "/scott_portfolio/static/js/runtime-main.28454767.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/media/National_Yang-Ming_University_logo.svg.e063390e.png"
   },
   {
+    "revision": "c3905ef7302eb8e2274e3d28c7f18cfe",
+    "url": "/scott_portfolio/static/media/Scott_Resume_05_17_25.c3905ef7.pdf"
+  },
+  {
     "revision": "59d0f6a56d5a83a2aa965b8ef992f5ba",
     "url": "/scott_portfolio/static/media/UTAustinLogo.59d0f6a5.png"
   },
@@ -104,12 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "32a902840cca71090c80890561f4be7f",
-    "url": "/scott_portfolio/static/media/network.32a90284.jpg"
-  },
-  {
-    "revision": "91ccb92e60eb65fe6bce0a9a49386a4c",
-    "url": "/scott_portfolio/static/media/resume.91ccb92e.pdf"
+    "revision": "de4d67e61cf1212b59cc45a73b0cc1c0",
+    "url": "/scott_portfolio/static/media/network.de4d67e6.jpg"
   },
   {
     "revision": "0c66034784183068df1fdb55de5279d5",
