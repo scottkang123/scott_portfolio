@@ -62,7 +62,7 @@ const Main = () => {
             <Achievement />
             <MoreAboutMe />
             <Blogs />
-            <Talks /> 
+            <Talks />
             {/* <Twitter /> */}
             <Podcast />
             <Profile />

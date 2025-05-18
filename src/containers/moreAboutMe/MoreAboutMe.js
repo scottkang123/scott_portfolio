@@ -6,18 +6,18 @@ import {moreAboutMe} from "../../portfolio";
 
 export default function MoreAboutMe() {
   const {isDark} = useContext(StyleContext);
-  
+
   if (!moreAboutMe.display) {
     return null;
   }
-  
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="moreaboutme">
         <div className="more-about-me-div">
           <div className="more-about-me-header">
             <h1 className="heading more-about-me-title">{moreAboutMe.title}</h1>
-            
+
             {/* Work Experience Section */}
             <h2 className="more-about-me-subtitle">Other Work Experience</h2>
             <div className="more-about-me-work-section">
@@ -39,14 +39,16 @@ export default function MoreAboutMe() {
                 </div>
               ))}
             </div>
-            
+
             {/* Countries Lived In Section */}
             <h2 className="more-about-me-subtitle">Countries I've Lived In</h2>
             <div className="more-about-me-countries-section">
               {moreAboutMe.countriesLivedIn.map((country, i) => (
                 <div key={i} className="more-about-me-country-item">
                   <h3 className="more-about-me-country-name">{country.name}</h3>
-                  <p className="more-about-me-country-duration">{country.duration}</p>
+                  <p className="more-about-me-country-duration">
+                    {country.duration}
+                  </p>
                   {country.image && (
                     <div className="more-about-me-country-image-div">
                       <img
@@ -59,7 +61,7 @@ export default function MoreAboutMe() {
                 </div>
               ))}
             </div>
-            
+
             {/* Hobbies Section */}
             <h2 className="more-about-me-subtitle">Hobbies</h2>
             <div className="more-about-me-hobbies-section">

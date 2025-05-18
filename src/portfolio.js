@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Engineer 🚀 having an experience of building a backend service, Web application, automation framework and many more cool projects!"
   ),
-  resumeLink:
-    "/Scott_Resume_05_17_25.pdf", // Set to empty to hide the button, //It is actually in the Greeting.js
+  resumeLink: "/Scott_Resume_05_17_25.pdf", // Set to empty to hide the button, //It is actually in the Greeting.js
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,18 +45,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Software Engineer passionate about exploring diverse tech stacks and building impactful products",
+  subTitle:
+    "Software Engineer passionate about exploring diverse tech stacks and building impactful products",
   skills: [
     emoji(
       "⚡ Developed scalable backend applications (e.g., tap-to-pay) using microservice architecture"
     ),
-    emoji("⚡ Built a test automation repository for end-to-end web application testing"),
+    emoji(
+      "⚡ Built a test automation repository for end-to-end web application testing"
+    ),
     emoji(
       "⚡ Integrated AI tools into development workflows and provided DevOps support"
     ),
-    emoji(
-      "⚡ Created interactive front-end interfaces for web applications"
-    )
+    emoji("⚡ Created interactive front-end interfaces for web applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -150,13 +150,8 @@ const educationInfo = {
       logo: require("./assets/images/UTAustinLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2025 - Present",
-      descArray: [
-        "GPA: 4.0",
-        "Coursework"
-      ],
-      descBullets: [
-        "Advanced Linear Algebra, Deep Learning"
-      ],
+      descArray: ["GPA: 4.0", "Coursework"],
+      descBullets: ["Advanced Linear Algebra, Deep Learning"],
       transcriptPdf: "/University_of_Texas_Academic_Summary.pdf" // Add path to transcript PDF if available
     },
     {
@@ -171,7 +166,9 @@ const educationInfo = {
         "Clubs: VandyHacks, Multicultural Leadership Council - International Story Telling Showcase, Asian American Student Association, Korean Undergraduate Student Association Soccer Team, LNYF festival dance team",
         "Coursework"
       ],
-      descBullets: ["Principles of Software Engineer, Machine Learning, Data Visualization, Operating Systems, Project in Virtual Reality Design, Network Analysis in Healthcare, Theory of Automata, Program Design Data Structures, Database Management Systems, Discrete Structures, Algorithms, Intermediate Software Design, Programming Languages, Programming & Problem-Solving, Computers & Ethics, Digital Systems, Digital Systems Laboratory, Intro to Numerical Math, Prob/Stats - Engineering, Diff Eq with Linear Algebra, Linear Algebra, Intro Programming for Eng & Sci"],
+      descBullets: [
+        "Principles of Software Engineer, Machine Learning, Data Visualization, Operating Systems, Project in Virtual Reality Design, Network Analysis in Healthcare, Theory of Automata, Program Design Data Structures, Database Management Systems, Discrete Structures, Algorithms, Intermediate Software Design, Programming Languages, Programming & Problem-Solving, Computers & Ethics, Digital Systems, Digital Systems Laboratory, Intro to Numerical Math, Prob/Stats - Engineering, Diff Eq with Linear Algebra, Linear Algebra, Intro Programming for Eng & Sci"
+      ],
       transcriptPdf: "/Kyung_Ho_Kang_Official_Transcript.pdf" // Add path to transcript PDF if available
     }
   ]
@@ -250,7 +247,8 @@ const bigProjects = {
     {
       image: require("./assets/images/vandymarketplace.png"),
       projectName: "Vandy Market Place",
-      projectDesc: "Platform that facilitates the buying and selling of items among students within Vanderbilt",
+      projectDesc:
+        "Platform that facilitates the buying and selling of items among students within Vanderbilt",
       footerLink: [
         {
           name: "Visit Website",
@@ -277,7 +275,8 @@ const bigProjects = {
     {
       image: require("./assets/images/network.jpg"),
       projectName: "Network Analysis: Drug Drug Interaction",
-      projectDesc: "Analysis of drug interactions and adverse effects using network analysis",
+      projectDesc:
+        "Analysis of drug interactions and adverse effects using network analysis",
       footerLink: [
         {
           name: "Download Paper",
@@ -288,7 +287,8 @@ const bigProjects = {
     {
       image: require("./assets/images/data.jpg"),
       projectName: "Data Analysis: Voters' Registration",
-      projectDesc: "Designed and implemented a data analytics system for voter registration data to support efficient analysis and reporting",
+      projectDesc:
+        "Designed and implemented a data analytics system for voter registration data to support efficient analysis and reporting",
       footerLink: [
         {
           name: "Download Demo",
@@ -440,39 +440,43 @@ const contactInfo = {
 const moreAboutMe = {
   title: "More About Me",
   display: true, // Set false to hide this section, defaults to true
-  
+
   // Other Work Experience
   otherWorkExperience: [
     {
       role: "Sergeant",
       company: "Republic of Korea Army",
       date: "December 2020 - June 2022",
-      description: "Worked as a translator and an intelligence operation soldier at a command control center. Dispatched to Incheon Airport, guiding overseas arrivals with quarantine processes in response to COVID-19.",
+      description:
+        "Worked as a translator and an intelligence operation soldier at a command control center. Dispatched to Incheon Airport, guiding overseas arrivals with quarantine processes in response to COVID-19.",
       image: require("./assets/images/koreanArmyLogo.jpg") // Replace with actual military service image
     },
     {
       role: "Teaching Staff",
       company: "Wisconsin Universities Korea Representative",
       date: "April 2020 - December 2020",
-      description: "Taught ACT, IELTS, AP CalcAB, College Statistics, and College Algebra to high-school seniors and college freshmen. Managed student information, college application processes, and helped maintain the facility.",
+      description:
+        "Taught ACT, IELTS, AP CalcAB, College Statistics, and College Algebra to high-school seniors and college freshmen. Managed student information, college application processes, and helped maintain the facility.",
       image: require("./assets/images/wisconsinUniLogo.png") // Replace with actual military service image
     },
     {
       role: "Summer Intern",
       company: "Denave",
       date: "Summer 2020",
-      description: "Organized a database to manage Microsoft customers, and informed tech managers of virtual cloud training sessions and important updates regarding Microsoft products.",
+      description:
+        "Organized a database to manage Microsoft customers, and informed tech managers of virtual cloud training sessions and important updates regarding Microsoft products.",
       image: require("./assets/images/Denave_New_Logo.jpg") // Replace with actual military service image
     },
     {
       role: "Summer Intern",
       company: "National Yang Ming University",
       date: "Summer 2017",
-      description: "Helped professors and graduate students with research on a protein called mCostars that regulates cell migration and wrote a lab report for the experiment. Performed PCR, gel electrophoresis, culturing E.Coli, plasmid digestion & ligation, and observed migration of cancer cells and studied f-actin staining under a microscope, during a course of 6 weeks program",
+      description:
+        "Helped professors and graduate students with research on a protein called mCostars that regulates cell migration and wrote a lab report for the experiment. Performed PCR, gel electrophoresis, culturing E.Coli, plasmid digestion & ligation, and observed migration of cancer cells and studied f-actin staining under a microscope, during a course of 6 weeks program",
       image: require("./assets/images/National_Yang-Ming_University_logo.svg.png") // Replace with actual military service image
     }
   ],
-  
+
   // Countries Lived In
   countriesLivedIn: [
     {
@@ -501,7 +505,7 @@ const moreAboutMe = {
       image: require("./assets/images/Flag_of_the_United_States.svg.png") // Replace with actual country image
     }
   ],
-  
+
   // Hobbies
   hobbies: [
     "Soccer",

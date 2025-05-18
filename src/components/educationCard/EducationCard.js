@@ -65,19 +65,21 @@ export default function EducationCard({school}) {
               >
                 {school.duration}
               </p>
-              
+
               {/* Support for legacy desc field */}
-              {school.desc && <p className="education-text-desc">{school.desc}</p>}
-              
+              {school.desc && (
+                <p className="education-text-desc">{school.desc}</p>
+              )}
+
               {/* Support for new descArray field */}
               <GetDescArray descArray={school.descArray} />
-              
+
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
                 </ul>
               </div>
-              
+
               {/* Transcript PDF download link */}
               {school.transcriptPdf && (
                 <div className="education-text-transcript">
