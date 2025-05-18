@@ -26,6 +26,8 @@ jobs:
         with:
           node-version: 18.x
 
+      - name: Set OpenSSL legacy provider env var
+        run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
       # - name: Update npm 🚀
       #   run: npm install -g npm@latest
 
