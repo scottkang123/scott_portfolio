@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a68c8949f48b23998f8db10563ea346",
+    "revision": "116bcee7eb62666b02bc68dad75f2131",
     "url": "/scott_portfolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "0e8e39690368b1e8dff1",
+    "revision": "d745080fd6c5f3452b2f",
     "url": "/scott_portfolio/static/css/main.26e59c9d.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/js/4.fbc0b9de.chunk.js"
   },
   {
-    "revision": "0e8e39690368b1e8dff1",
-    "url": "/scott_portfolio/static/js/main.51ac7196.chunk.js"
+    "revision": "d745080fd6c5f3452b2f",
+    "url": "/scott_portfolio/static/js/main.9757dbdd.chunk.js"
   },
   {
     "revision": "5adaa275b174a102c5d9",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/media/National_Yang-Ming_University_logo.svg.e063390e.png"
   },
   {
-    "revision": "c3905ef7302eb8e2274e3d28c7f18cfe",
-    "url": "/scott_portfolio/static/media/Scott_Resume_05_17_25.c3905ef7.pdf"
+    "revision": "23b8b562d7ea7407023e8ce00377c13c",
+    "url": "/scott_portfolio/static/media/Scott_Resume_06_15.23b8b562.pdf"
   },
   {
     "revision": "59d0f6a56d5a83a2aa965b8ef992f5ba",
