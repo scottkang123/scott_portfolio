@@ -152,7 +152,7 @@ const educationInfo = {
       duration: "January 2025 - Present",
       descArray: ["GPA: 4.0", "Coursework"],
       descBullets: ["Advanced Linear Algebra, Deep Learning"],
-      transcriptPdf: "/University_of_Texas_Academic_Summary.pdf" // Add path to transcript PDF if available
+      transcriptPdf: "University_of_Texas_Academic_Summary.pdf" // Add path to transcript PDF if available
     },
     {
       schoolName: "Vanderbilt University",
@@ -169,7 +169,7 @@ const educationInfo = {
       descBullets: [
         "Principles of Software Engineer, Machine Learning, Data Visualization, Operating Systems, Project in Virtual Reality Design, Network Analysis in Healthcare, Theory of Automata, Program Design Data Structures, Database Management Systems, Discrete Structures, Algorithms, Intermediate Software Design, Programming Languages, Programming & Problem-Solving, Computers & Ethics, Digital Systems, Digital Systems Laboratory, Intro to Numerical Math, Prob/Stats - Engineering, Diff Eq with Linear Algebra, Linear Algebra, Intro Programming for Eng & Sci"
       ],
-      transcriptPdf: "/Kyung_Ho_Kang_Official_Transcript.pdf" // Add path to transcript PDF if available
+      transcriptPdf: "Kyung_Ho_Kang_Official_Transcript.pdf" // Add path to transcript PDF if available
     }
   ]
 };
@@ -215,7 +215,7 @@ const workExperiences = {
       date: "February 2024 – Present",
       descBullets: [
         "Developed Visa Accept product aimed to enable billions of small merchants to quickly set up a seller profile through a participating banking app and accept card payments with their mobile phone.",
-        "Developed a comprehensive automation test framework for a settlement funds transfer management platform (February 2023 - October 2023)"
+        "Developed a comprehensive automation test framework for a settlement funds transfer management platform"
       ]
     },
     {
