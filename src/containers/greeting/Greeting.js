@@ -9,6 +9,12 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
+const toPublic = (url) => {
+  const base = process.env.PUBLIC_URL || "";
+  const path = url.startsWith("/") ? url : `/${url}`;
+  return `${base}${path}`;
+};
+
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
@@ -42,9 +48,10 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="/scott_portfolio/Scott_Resume.pdf"
+                    href={toPublic("/Scott_Resume.pdf")}
                     download="Scott_Resume.pdf"
                     className="download-link-button"
+                    rel="noopener noreferrer"
                   >
                     <Button text="Download my resume" />
                   </a>
