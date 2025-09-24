@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/scott_portfolio/static/css/main.26e59c9d.chunk.css",
-    "main.js": "/scott_portfolio/static/js/main.a1fccd9a.chunk.js",
-    "main.js.map": "/scott_portfolio/static/js/main.a1fccd9a.chunk.js.map",
-    "runtime-main.js": "/scott_portfolio/static/js/runtime-main.28454767.js",
-    "runtime-main.js.map": "/scott_portfolio/static/js/runtime-main.28454767.js.map",
+    "main.js": "/scott_portfolio/static/js/main.2a1e5581.chunk.js",
+    "main.js.map": "/scott_portfolio/static/js/main.2a1e5581.chunk.js.map",
+    "runtime-main.js": "/scott_portfolio/static/js/runtime-main.76461502.js",
+    "runtime-main.js.map": "/scott_portfolio/static/js/runtime-main.76461502.js.map",
     "static/js/2.07f68987.chunk.js": "/scott_portfolio/static/js/2.07f68987.chunk.js",
     "static/js/2.07f68987.chunk.js.map": "/scott_portfolio/static/js/2.07f68987.chunk.js.map",
     "static/css/3.df879eac.chunk.css": "/scott_portfolio/static/css/3.df879eac.chunk.css",
-    "static/js/3.33bc8abb.chunk.js": "/scott_portfolio/static/js/3.33bc8abb.chunk.js",
-    "static/js/3.33bc8abb.chunk.js.map": "/scott_portfolio/static/js/3.33bc8abb.chunk.js.map",
+    "static/js/3.a23f29ae.chunk.js": "/scott_portfolio/static/js/3.a23f29ae.chunk.js",
+    "static/js/3.a23f29ae.chunk.js.map": "/scott_portfolio/static/js/3.a23f29ae.chunk.js.map",
     "static/css/4.d7ceb645.chunk.css": "/scott_portfolio/static/css/4.d7ceb645.chunk.css",
-    "static/js/4.fbc0b9de.chunk.js": "/scott_portfolio/static/js/4.fbc0b9de.chunk.js",
-    "static/js/4.fbc0b9de.chunk.js.map": "/scott_portfolio/static/js/4.fbc0b9de.chunk.js.map",
+    "static/js/4.5eeaf66c.chunk.js": "/scott_portfolio/static/js/4.5eeaf66c.chunk.js",
+    "static/js/4.5eeaf66c.chunk.js.map": "/scott_portfolio/static/js/4.5eeaf66c.chunk.js.map",
     "index.html": "/scott_portfolio/index.html",
-    "precache-manifest.2e15f1e2a36072cf934e03c633929d11.js": "/scott_portfolio/precache-manifest.2e15f1e2a36072cf934e03c633929d11.js",
+    "precache-manifest.af70580663cd7f19f0b8c79e982b2e94.js": "/scott_portfolio/precache-manifest.af70580663cd7f19f0b8c79e982b2e94.js",
     "service-worker.js": "/scott_portfolio/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/scott_portfolio/static/css/3.df879eac.chunk.css.map",
     "static/css/4.d7ceb645.chunk.css.map": "/scott_portfolio/static/css/4.d7ceb645.chunk.css.map",
@@ -28,7 +28,6 @@
     "static/media/Flag_of_the_United_States.svg.png": "/scott_portfolio/static/media/Flag_of_the_United_States.svg.99b453cd.png",
     "static/media/ML.jpg": "/scott_portfolio/static/media/ML.13db5e22.jpg",
     "static/media/National_Yang-Ming_University_logo.svg.png": "/scott_portfolio/static/media/National_Yang-Ming_University_logo.svg.e063390e.png",
-    "static/media/Scott_Resume.pdf": "/scott_portfolio/static/media/Scott_Resume.f6dda70b.pdf",
     "static/media/UTAustinLogo.png": "/scott_portfolio/static/media/UTAustinLogo.59d0f6a5.png",
     "static/media/VanderbiltUniversityLogo.png": "/scott_portfolio/static/media/VanderbiltUniversityLogo.39bc9bf2.png",
     "static/media/contactMailDark.svg": "/scott_portfolio/static/media/contactMailDark.51cf7192.svg",
@@ -45,9 +44,9 @@
     "static/media/wisconsinUniLogo.png": "/scott_portfolio/static/media/wisconsinUniLogo.303827d0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.28454767.js",
+    "static/js/runtime-main.76461502.js",
     "static/js/2.07f68987.chunk.js",
     "static/css/main.26e59c9d.chunk.css",
-    "static/js/main.a1fccd9a.chunk.js"
+    "static/js/main.2a1e5581.chunk.js"
   ]
 }

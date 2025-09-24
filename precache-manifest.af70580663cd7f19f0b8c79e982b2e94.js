@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2de66deff5301ca5f692a57d84eb612",
+    "revision": "45084508c1bbe48dbb929da0308acbd1",
     "url": "/scott_portfolio/index.html"
   },
   {
-    "revision": "dfab139b1aee4bd0a6e1",
+    "revision": "6e30ff6a79606c54d898",
     "url": "/scott_portfolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "cdb850750231ef04072d",
+    "revision": "269336d0607a6a55951d",
     "url": "/scott_portfolio/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "114ef5d5344271da55d5",
+    "revision": "7293592c1e44c1aa0cc5",
     "url": "/scott_portfolio/static/css/main.26e59c9d.chunk.css"
   },
   {
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott_portfolio/static/js/2.07f68987.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dfab139b1aee4bd0a6e1",
-    "url": "/scott_portfolio/static/js/3.33bc8abb.chunk.js"
+    "revision": "6e30ff6a79606c54d898",
+    "url": "/scott_portfolio/static/js/3.a23f29ae.chunk.js"
   },
   {
-    "revision": "cdb850750231ef04072d",
-    "url": "/scott_portfolio/static/js/4.fbc0b9de.chunk.js"
+    "revision": "269336d0607a6a55951d",
+    "url": "/scott_portfolio/static/js/4.5eeaf66c.chunk.js"
   },
   {
-    "revision": "114ef5d5344271da55d5",
-    "url": "/scott_portfolio/static/js/main.a1fccd9a.chunk.js"
+    "revision": "7293592c1e44c1aa0cc5",
+    "url": "/scott_portfolio/static/js/main.2a1e5581.chunk.js"
   },
   {
-    "revision": "5adaa275b174a102c5d9",
-    "url": "/scott_portfolio/static/js/runtime-main.28454767.js"
+    "revision": "4bba0b977e687d01467d",
+    "url": "/scott_portfolio/static/js/runtime-main.76461502.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e063390ed37c9c6ee55f4b5a97051c6a",
     "url": "/scott_portfolio/static/media/National_Yang-Ming_University_logo.svg.e063390e.png"
-  },
-  {
-    "revision": "f6dda70b27292c3925b34a2e15dd3feb",
-    "url": "/scott_portfolio/static/media/Scott_Resume.f6dda70b.pdf"
   },
   {
     "revision": "59d0f6a56d5a83a2aa965b8ef992f5ba",
