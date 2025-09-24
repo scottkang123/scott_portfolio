@@ -256,7 +256,7 @@ const bigProjects = {
         },
         {
           name: "Download Demo",
-          url: "/VandyMarketPlaceDemo.mp4"
+          url: "/scott_portfolio/VandyMarketPlaceDemo.mp4"
         }
         //  you can add extra buttons here.
       ]
@@ -268,7 +268,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Download Paper",
-          url: "/Phishing_URL_Classification.pdf"
+          url: "/scott_portfolio/Phishing_URL_Classification.pdf"
         }
       ]
     },
@@ -280,7 +280,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Download Paper",
-          url: "/DDI_Network_paper_Scott.pdf"
+          url: "/scott_portfolio/DDI_Network_paper_Scott.pdf"
         }
       ]
     },
@@ -292,7 +292,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Download Demo",
-          url: "/MySQLProject.mp4"
+          url: "/scott_portfolio/MySQLProject.mp4"
         }
       ]
     },
