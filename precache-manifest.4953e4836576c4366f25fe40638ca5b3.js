@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d8f08a9e4be8300760986bafc51e2b4",
+    "revision": "517eb234d31b1b31a694af95bd3973f1",
     "url": "/scott_portfolio/index.html"
   },
   {
-    "revision": "6e30ff6a79606c54d898",
+    "revision": "dfab139b1aee4bd0a6e1",
     "url": "/scott_portfolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "269336d0607a6a55951d",
+    "revision": "cdb850750231ef04072d",
     "url": "/scott_portfolio/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "a53f7035500f49317ca7",
-    "url": "/scott_portfolio/static/css/main.26e59c9d.chunk.css"
+    "revision": "9de4a8845df567ff9460",
+    "url": "/scott_portfolio/static/css/main.8d78354a.chunk.css"
   },
   {
-    "revision": "b418c9ca5961cbd0a7f7",
-    "url": "/scott_portfolio/static/js/2.07f68987.chunk.js"
+    "revision": "f844590ba87f34075161",
+    "url": "/scott_portfolio/static/js/2.27f2a2b1.chunk.js"
   },
   {
     "revision": "d4d701abc30fcef5f714584a64df6e82",
-    "url": "/scott_portfolio/static/js/2.07f68987.chunk.js.LICENSE.txt"
+    "url": "/scott_portfolio/static/js/2.27f2a2b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e30ff6a79606c54d898",
-    "url": "/scott_portfolio/static/js/3.a23f29ae.chunk.js"
+    "revision": "dfab139b1aee4bd0a6e1",
+    "url": "/scott_portfolio/static/js/3.33bc8abb.chunk.js"
   },
   {
-    "revision": "269336d0607a6a55951d",
-    "url": "/scott_portfolio/static/js/4.5eeaf66c.chunk.js"
+    "revision": "cdb850750231ef04072d",
+    "url": "/scott_portfolio/static/js/4.fbc0b9de.chunk.js"
   },
   {
-    "revision": "a53f7035500f49317ca7",
-    "url": "/scott_portfolio/static/js/main.2311bb92.chunk.js"
+    "revision": "9de4a8845df567ff9460",
+    "url": "/scott_portfolio/static/js/main.82d0f4c1.chunk.js"
   },
   {
-    "revision": "4bba0b977e687d01467d",
-    "url": "/scott_portfolio/static/js/runtime-main.76461502.js"
+    "revision": "5adaa275b174a102c5d9",
+    "url": "/scott_portfolio/static/js/runtime-main.28454767.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99b453cdb7dc00c0632a42851947b78b",
     "url": "/scott_portfolio/static/media/Flag_of_the_United_States.svg.99b453cd.png"
+  },
+  {
+    "revision": "f08c524d147f46398cb54013ee7013ee",
+    "url": "/scott_portfolio/static/media/LinkedIn_logo_initials.f08c524d.png"
   },
   {
     "revision": "13db5e2202aa39b783fded70d877b662",
