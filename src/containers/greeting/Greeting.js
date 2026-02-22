@@ -9,7 +9,7 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-const toPublic = (url) => {
+const toPublic = url => {
   const base = process.env.PUBLIC_URL || "";
   const path = url.startsWith("/") ? url : `/${url}`;
   return `${base}${path}`;

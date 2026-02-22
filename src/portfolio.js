@@ -151,7 +151,9 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "January 2025 - Present",
       descArray: ["GPA: 4.0", "Coursework"],
-      descBullets: ["Advanced Linear Algebra, Deep Learning, Android Programming"],
+      descBullets: [
+        "Advanced Linear Algebra, Deep Learning, Android Programming"
+      ],
       transcriptPdf: "University_of_Texas_Academic_Summary.pdf" // Add path to transcript PDF if available
     },
     {
@@ -214,9 +216,7 @@ const workExperiences = {
       team: "LinkedIn Business Platform",
       companylogo: require("./assets/images/LinkedIn_logo_initials.png"),
       date: "March 2026 – Present",
-      descBullets: [
-        "TBD"
-      ]
+      descBullets: ["TBD"]
     },
     {
       role: "Software Developer",
