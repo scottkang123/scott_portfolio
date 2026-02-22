@@ -151,7 +151,7 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "January 2025 - Present",
       descArray: ["GPA: 4.0", "Coursework"],
-      descBullets: ["Advanced Linear Algebra, Deep Learning"],
+      descBullets: ["Advanced Linear Algebra, Deep Learning, Android Programming"],
       transcriptPdf: "University_of_Texas_Academic_Summary.pdf" // Add path to transcript PDF if available
     },
     {
@@ -210,21 +210,39 @@ const workExperiences = {
   experience: [
     {
       role: "Software Developer",
-      company: "Visa",
-      companylogo: require("./assets/images/visa-logo-03.png"),
-      date: "February 2024 – Present",
+      company: "LinkedIn",
+      team: "LinkedIn Business Platform",
+      companylogo: require("./assets/images/LinkedIn_logo_initials.png"),
+      date: "March 2026 – Present",
       descBullets: [
-        "Developed Visa Accept product aimed to enable billions of small merchants to quickly set up a seller profile through a participating banking app and accept card payments with their mobile phone.",
-        "Developed a comprehensive automation test framework for a settlement funds transfer management platform"
+        "TBD"
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "Visa",
+      team: "Value Added Service & Payment Product Development",
+      companylogo: require("./assets/images/visa-logo-03.png"),
+      date: "February 2024 – March 2026",
+      descBullets: [
+        "Developed Visa Accept product aimed to enable billions of small merchants to quickly set up a seller profile through a participating banking app and accept card payments with their mobile devices.",
+        "Implemented RESTful backend APIs for Visa Accept payment/refund flows, enabling tap-to-pay and pay-by-link through partner banking apps; deployed in an active-active dual data centers with GTM/LTM load balancers, supporting rollout across 51+ countries.",
+        "Architected a domain rule engine integrating with Kafka as a Service for real-time disputes and onboarding services for seller-specific rules, improving read latency on cache hits via Hazelcast and Redis",
+        "Developed dashboard APIs to compute cumulative sales across charge cycles, time zones, and transaction states; designed MySQL transaction history schema with automated auditing and executed schema migrations using Liquibase.",
+        "Enabled Apple-based contactless payments by configuring Apple Business Register, implementing backend terminal profile creation logic, and securing NFC data transmission via mTLS, JWT-based authentication, and Key Encryption Key (KEK).",
+        "Led secure deployments across sandbox and production, performing security assessments, migrating legacy services to Spring Boot, configuring Splunk alerts, and implementing salted HMAC hashing for PAN storage to ensure PCI compliance.",
+        "Developed a comprehensive automation test framework for a settlement funds transfer management platform using TestNG, Cucumber, and Selenium, replacing 100% of manual testing, reducing errors, and accelerating deployment timelines"
       ]
     },
     {
       role: "Software Engineer",
       company: "Stryker",
+      team: "Endoscopy",
       companylogo: require("./assets/images/stryker.png"),
       date: "May 2023 – August 2023",
       descBullets: [
-        "Designed a user-interactive GUI after automating the extraction of data from the surgical instrument using TCP sockets, saving more than 400 hours/year for the test, service, and installation teams."
+        "Implemented automated extraction of data from the surgical instrument using TCP sockets and API requests.",
+        "Designed a user-interactive GUI with a debug window, export menu, a real-time state table, and a customized summary table, increasing efficiency by 400 times and saving over 400 hours annually for test, service, and installation teams"
       ]
     }
   ]

@@ -103,6 +103,15 @@
 .dark-mode-text {
   color: $textColorDark !important;
 }
+.experience-text-team {
+  text-align: center;
+  color: $textColor;
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
 .experience-text-date {
   text-align: center;
   color: $textColor;
