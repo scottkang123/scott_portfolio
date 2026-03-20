@@ -231,7 +231,8 @@ const workExperiences = {
         "Developed dashboard APIs to compute cumulative sales across charge cycles, time zones, and transaction states; designed MySQL transaction history schema with automated auditing and executed schema migrations using Liquibase.",
         "Enabled Apple-based contactless payments by configuring Apple Business Register, implementing backend terminal profile creation logic, and securing NFC data transmission via mTLS, JWT-based authentication, and Key Encryption Key (KEK).",
         "Led secure deployments across sandbox and production, performing security assessments, migrating legacy services to Spring Boot, configuring Splunk alerts, and implementing salted HMAC hashing for PAN storage to ensure PCI compliance.",
-        "Developed a comprehensive automation test framework for a settlement funds transfer management platform using TestNG, Cucumber, and Selenium, replacing 100% of manual testing, reducing errors, and accelerating deployment timelines"
+        "Developed a comprehensive automation test framework for a settlement funds transfer management platform using TestNG, Cucumber, and Selenium, replacing 100% of manual testing, reducing errors, and accelerating deployment timelines",
+        "Recognized with an 'Outstanding' performance rating (Top 10%); served as a Visa GenAI Ambassador and Boot Camp Mentor; participated in internal hackathons and earned Visa University Certificates in Kafka, Jenkins, and Data."
       ]
     },
     {
